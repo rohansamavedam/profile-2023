@@ -1,27 +1,30 @@
 import React from 'react'
-import { Text, Container, Row } from "@nextui-org/react";
+import { Text, Container, Row, Spacer, Button, Grid } from "@nextui-org/react";
+import userData from '../data/UserData';
 
 export default function Home() {
+    const aboutMe = userData.aboutMe
     return (
         <div>
-            <Container sm>
+            <Container xs>
                 <Row>
                     <Text h1 css={{
-                    textGradient: "45deg, $blue600 -20%, $pink600 50%",
-                    }}>Hey there .... I'm Rohan</Text>
+                    textGradient: "45deg, #009FFF -20%, #ec2F4B 100%",
+                    }}>Hey there, I'm Rohan</Text>
                 </Row>
-                <Text h4>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's sta
-                    ndard dummy text ever since the 1500s, when an unknown printer to
-                    ok a galley of type and scrambled it to make a type specimen bo
-                    ok. It has survived not only five centuries, but also the leap i
-                    nto electronic typesetting, remaining essentially unchanged. It wa
-                    s popularised in the 1960s with the release of Letraset sheets co
-                    ntaining Lorem Ipsum passages, and more recently with desktop p
-                    ublishing software like Aldus PageMaker including versions of Lor
-                    em Ipsum.
-                 </Text>
+                {/* <Spacer y={1} /> */}
+                {
+                    aboutMe.paragraphs.map((paragraph) => {
+                        return (
+                            <div>
+                                <Text size="$lg" >
+                                    {paragraph}
+                                </Text>
+                                <Spacer y={1} />
+                            </div>
+                        )
+                    })
+                }
             </Container>
         </div>
     )

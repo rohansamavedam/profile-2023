@@ -2,18 +2,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import NavBar from './components/NavBar'
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
-import Learnings from "./pages/Learnings";
+import Experience from "./pages/Experience";
 import FourOFour from "./pages/404";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <NavBar/>
+      <NavBar/>
         <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="projects" element={<Projects/>} />
-            <Route path="learnings" element={<Learnings/>} />
+            <Route path="experience" element={<Experience/>} />
             <Route path="*" element={<FourOFour/>} />
         </Routes>
       </BrowserRouter>
