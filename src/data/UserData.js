@@ -109,7 +109,18 @@ const UserData = {
     experience: 
         [
             {
-                position: "Software Development Engineer Intern",
+                position: "Software Engineer",
+                company: "Goodreads.com",
+                timeline: "Sep 2019 - Feb 2021 . 1 yr 6 months",
+                workDescp: [
+                    "Answered questions regarding the university housing licence, application process and payment deadlines.",
+                    "Responded to resident inquiries regarding account balance, late fees, holds and other related questions.",
+                    "Soft Skills Gained: Leadership, Working independently, Team Work, Communication."
+                ]
+
+            },
+            {
+                position: "Software Engineer Intern",
                 company: "Amazon",
                 timeline: "May 2020 - Aug 2020 . 4 months",
                 workDescp: [
@@ -118,24 +129,13 @@ const UserData = {
                     "Wrote unit and integration tests to test microservices using Cucumber.",
                     "Leveraged Knowledge in AWS Lambda, API-Gateway, DynamoDB, Route53, CloudFront, S3, CloudWatch."
                 ]
-            },
-            {
-                position: "Student Office Assistant",
-                company: "San Jose State University",
-                timeline: "Sep 2019 - Feb 2021 . 1 yr 6 months",
-                workDescp: [
-                    "Answered questions regarding the university housing licence, application process and payment deadlines.",
-                    "Responded to resident inquiries regarding account balance, late fees, holds and other related questions.",
-                    "Soft Skills Gained: Leadership, Working independently, Team Work, Communication."
-                ]
-
             }
         ],
     education: 
         [
             {
-                degree: "Bachelors of Science in Software Engineering",
-                college: "San Jose State University",
+                degree: "BS in Software Engineering",
+                college: "SJSU",
                 timeline: "Aug 2017 - Aug 2021",
                 description: "The Bachelor of Science degree in Software Engineering (BSSE) goes beyond programming to include engineering methodologies and hands-on project experience. The program prepares students to become qualified engineers for IT leading companies in Silicon Valley and international engineering market by providing them with state-of-the-art engineering methods, emergent technologies, team work experience, and solutions so they are capable to address design, coding, validation, and measurement issues for the construction of large-scale computer systems and software applications in the real world.",
                 coursework: "Relevant coursework: Data Structures and Algorithms, Object Oriented Design, Database Management Systems, Server Side Programming, Computer Networks, Software Quality Engineering, Enterprise Software Platforms, Software Engineering Methodologies"
