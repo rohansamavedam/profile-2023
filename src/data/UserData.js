@@ -3,7 +3,7 @@ const UserData = {
         firstName: "Rohan",
         lastName: "Samavedam",
         userTitle: "Software Engineering Student",
-        linkedinUrl: "https://www.linkedin.com/in/rohan-samavedam-6a3612156/",
+        linkedinUrl: "https://www.linkedin.com/in/rohansamavedam/",
         githubUrl: "https://github.com/rohansamavedam",
         mediumUrl: "https://discord.gg/e7jfdafV",
         email: "rohansamavedam@gmail.com", 
@@ -53,58 +53,58 @@ const UserData = {
             imageSrcTwo: "",
 
         },
-        {
-            title: "MyRoomie-Roommate Finder",
-            subTitle: "Full Stack Web Application",
-            shortDescription: "A roommate finding application that finds the best roommate match for the user based on a well designed survey.",
-            moreInfoExists: false,
-            longDescription: "",
-            techStack: "Node, React, Axios, Bootstrap, MongoDB",
-            liveUrl: "https://myroommatefinder.herokuapp.com/",
-            githubUrl: "https://github.com/rohansamavedam/Roommate-Finder",
-            imageSrcOne: "https://images.pexels.com/photos/3171815/pexels-photo-3171815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-            imageSrcTwo: "",
+        // {
+        //     title: "MyRoomie-Roommate Finder",
+        //     subTitle: "Full Stack Web Application",
+        //     shortDescription: "A roommate finding application that finds the best roommate match for the user based on a well designed survey.",
+        //     moreInfoExists: false,
+        //     longDescription: "",
+        //     techStack: "Node, React, Axios, Bootstrap, MongoDB",
+        //     liveUrl: "https://myroommatefinder.herokuapp.com/",
+        //     githubUrl: "https://github.com/rohansamavedam/Roommate-Finder",
+        //     imageSrcOne: "https://images.pexels.com/photos/3171815/pexels-photo-3171815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        //     imageSrcTwo: "",
 
-        },
-        {
-            title: "Real Time Chat Application",
-            subTitle: "Web App Using Web Sockets",
-            shortDescription: "A chat application that utilies Socket.io for bi-directional communication between server and the client.",
-            moreInfoExists: false,
-            longDescription: "",
-            techStack: "JavaScript, JQuery, AJAX, HTML, CSS, APIs",
-            liveUrl: "https://chatroomslive.herokuapp.com/",
-            githubUrl: "https://github.com/rohansamavedam/Real-Time-Chat-App",
-            imageSrcOne: "https://images.pexels.com/photos/4057663/pexels-photo-4057663.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-            imageSrcTwo: "",
+        // },
+        // {
+        //     title: "Real Time Chat Application",
+        //     subTitle: "Web App Using Web Sockets",
+        //     shortDescription: "A chat application that utilies Socket.io for bi-directional communication between server and the client.",
+        //     moreInfoExists: false,
+        //     longDescription: "",
+        //     techStack: "JavaScript, JQuery, AJAX, HTML, CSS, APIs",
+        //     liveUrl: "https://chatroomslive.herokuapp.com/",
+        //     githubUrl: "https://github.com/rohansamavedam/Real-Time-Chat-App",
+        //     imageSrcOne: "https://images.pexels.com/photos/4057663/pexels-photo-4057663.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        //     imageSrcTwo: "",
 
-        },
-        {
-            title: "Gully Umpire",
-            subTitle: "Mobile Web Application",
-            shortDescription: "A score logging software that allows to log runs, wickets, and extras using a mobile phone.",
-            moreInfoExists: false,
-            longDescription: "",
-            techStack: "HTML, CSS, Javascript, JQuery",
-            liveUrl: "https://gullyumpire.herokuapp.com/",
-            githubUrl: "https://github.com/rohansamavedam/Gully-Umpire",
-            imageSrcOne: "https://images.pexels.com/photos/163394/baseball-umpire-strike-sport-163394.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-            imageSrcTwo: "",
+        // },
+        // {
+        //     title: "Gully Umpire",
+        //     subTitle: "Mobile Web Application",
+        //     shortDescription: "A score logging software that allows to log runs, wickets, and extras using a mobile phone.",
+        //     moreInfoExists: false,
+        //     longDescription: "",
+        //     techStack: "HTML, CSS, Javascript, JQuery",
+        //     liveUrl: "https://gullyumpire.herokuapp.com/",
+        //     githubUrl: "https://github.com/rohansamavedam/Gully-Umpire",
+        //     imageSrcOne: "https://images.pexels.com/photos/163394/baseball-umpire-strike-sport-163394.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        //     imageSrcTwo: "",
 
-        },
-        {
-            title: "Realtor Prototype",
-            subTitle: "Django Application",
-            shortDescription: "A real estate postings application built together with backend administrative access.",
-            moreInfoExists: false,
-            longDescription: "",
-            techStack: "Python Django, Javascript, HTML, CSS, Heroku",
-            liveUrl: "",
-            githubUrl: "https://github.com/rohansamavedam/Realtor-Prototype",
-            imageSrcOne: "https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-            imageSrcTwo: "",
+        // },
+        // {
+        //     title: "Realtor Prototype",
+        //     subTitle: "Django Application",
+        //     shortDescription: "A real estate postings application built together with backend administrative access.",
+        //     moreInfoExists: false,
+        //     longDescription: "",
+        //     techStack: "Python Django, Javascript, HTML, CSS, Heroku",
+        //     liveUrl: "",
+        //     githubUrl: "https://github.com/rohansamavedam/Realtor-Prototype",
+        //     imageSrcOne: "https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        //     imageSrcTwo: "",
 
-        },
+        // },
     ],
     experience: 
         [
@@ -113,9 +113,12 @@ const UserData = {
                 company: "Goodreads.com",
                 timeline: "Sep 2019 - Feb 2021 . 1 yr 6 months",
                 workDescp: [
-                    "Answered questions regarding the university housing licence, application process and payment deadlines.",
-                    "Responded to resident inquiries regarding account balance, late fees, holds and other related questions.",
-                    "Soft Skills Gained: Leadership, Working independently, Team Work, Communication."
+                    "Designed and developed features to serve millions of customers in their journey at Goodreads.com.",
+                    "Owned the delivery of features from end to end considering design documents, front-end, back-end, integration, testing, and release.",
+                    "Collaborated with design, product, and marketing teams to address feature requests, bugs, and user accessibility tasks thereby improving the experience for customers and increasing the revenue by $216k.",
+                    "Created documentation, dashboards, and updated runbooks as on-call to improve the OE process.",
+                    "Migrated legacy Ruby on Rails features on the platform to use NextJS, ReactJS, and GraphQL.",
+                    "Leveraged Knowledge in TypeScript, ReactJS, NextJS, GraphQL, AppSync, Ruby on Rails, SQL."
                 ]
 
             },
@@ -155,7 +158,24 @@ const UserData = {
                 stack: [
                 "Version Control", "REST", "MVC", "Docker", "Responsive Design", "SASS", "Bootstrap", "Web Sockets"
             ]}
-        ]
+        ],
+    reads: [
+        {
+            title: "Understanding System Design",
+            url: "https://www.freecodecamp.org/news/software-system-design-for-beginners/",
+            description: "Uses video streaming service as an example for demonstrating system design priniciples. Learned about different diagramming approaches, API design, database design, and network protocols."
+        },
+        {
+            title: "The Complete Node.js Developer",
+            url: "https://www.udemy.com/course/the-complete-nodejs-developer-course-2/",
+            description: "Learned the fundamentals of Node, after which, dived deep into great tools such as Express, Mongoose, MongoDB. Built various REST API's and created a real-time chat application utilizing Socket.io."
+        },
+        {
+            title: "A Complete Gudie to Flexbox",
+            url: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+            description: "",
+        }
+    ]
 }
 
 export default UserData;

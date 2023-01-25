@@ -1,11 +1,11 @@
-import { Container } from '@nextui-org/react'
+import { Container, Text } from '@nextui-org/react'
 import React from 'react'
 
 export default function FourOFour() {
     return (
         <div>
             <Container xs>
-                404
+                <Text>The page you're looking for does not exist</Text>
             </Container>
         </div>
     )
