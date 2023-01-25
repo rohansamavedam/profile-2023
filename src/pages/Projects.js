@@ -1,5 +1,4 @@
-import { Container, Text, Grid, Row, Button, Spacer } from '@nextui-org/react'
-import Card from '../components/Card/Card';
+import { Container, Text, Spacer } from '@nextui-org/react'
 import React from 'react'
 import userData from '../data/UserData'
 

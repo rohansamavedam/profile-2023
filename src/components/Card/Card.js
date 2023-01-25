@@ -5,7 +5,7 @@ export default function Card(props) {
     const { project } = props;
     return (
         <div className='card'>
-            <img src={ project.imageSrcOne } />
+            <img src={ project.imageSrcOne } alt="gify" />
             <div className='overlay'>
 
             </div>  

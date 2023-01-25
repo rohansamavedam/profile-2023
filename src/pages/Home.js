@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, Container, Row, Spacer, Button, Grid, Link } from "@nextui-org/react";
+import { Text, Container, Row, Spacer, Grid, Link } from "@nextui-org/react";
 import userData from '../data/UserData';
 
 export default function Home() {
