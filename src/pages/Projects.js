@@ -1,9 +1,10 @@
-import { Container, Text, Spacer, Button } from '@nextui-org/react'
+import { Container, Text, Spacer, Butto, Link } from '@nextui-org/react'
 import React from 'react'
 import userData from '../data/UserData'
 
 export default function Projects() {
     const projects = userData.projects;
+    const currently = userData.curretly;
     const headingCss = { textGradient: "45deg, #009FFF -20%, #ec2F4B 100%" }
 
     return (
@@ -12,13 +13,14 @@ export default function Projects() {
                 <Text h1 css={headingCss}>Currently</Text>
                 <div>
                     {
-                        projects.map((project) => {
+                        currently.map((project) => {
                             return (
                                 <div>
-                                    <Text h2>{project.title}</Text>
+                                    <Link isExternal href={project.githubUrl}>
+                                        <Text h2>{project.title}</Text>
+                                    </Link>
                                     <Text size="$md" >
-                                        {project.shortDescription} 
-                                        {project.longDescription}
+                                        {project.description} 
                                     </Text>
                                     <Spacer y={1} />
                                 </div>
@@ -32,12 +34,16 @@ export default function Projects() {
                         projects.map((project) => {
                             return (
                                 <div>
-                                    <Text h2>{project.title}</Text>
+                                    <Link isExternal href={project.githubUrl}>
+                                        <Text h2>{project.title}</Text>
+                                    </Link>
                                     <Text size="$md" >
                                         {project.shortDescription} 
-                                        {project.longDescription}
                                     </Text>
-                                    <Button auto >Github</Button>
+                                    <Text size="$md" >
+                                        Tech stack used: {project.techStack} 
+                                    </Text>
+                                    {/* <Button auto >Github</Button> */}
                                     <Spacer y={1} />
                                 </div>
                             )

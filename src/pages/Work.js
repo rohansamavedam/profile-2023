@@ -17,7 +17,30 @@ export default function Experience() {
                         return (
                             <div>
                                 <Text h2>{experience.position} at {experience.company}</Text>
-                                <Text size="$md">{experience.workDescp}</Text>
+                                <Text size="$md">
+                                    {
+                                        experience.workDescp.map((point) => {
+                                            return (
+                                                <div>
+                                                    {point}
+                                                    <Spacer y={1} />
+                                                </div>
+                                            )
+                                        })
+                                    }
+                                    <Text size="$md">Tools & tech that I was using frequently: </Text>
+                                    <ol>
+                                    {
+                                        experience.tools.map((tool) => {
+                                            return (
+                                                <li>
+                                                    {tool}
+                                                </li>
+                                            )
+                                        })
+                                    }
+                                    </ol>
+                                </Text>
                                 <Spacer y={1} />
                             </div>
                         )
@@ -31,6 +54,21 @@ export default function Experience() {
                                 <Text h2>{education.degree} from {education.college}</Text>
                                 <Text size="$md" >
                                     {education.description}
+                                </Text>
+                                <Spacer y={1}/>
+                                <Text size="$md">Coursework where I had maxium learning from: </Text>
+                                <Text size="$md">
+                                    <ol>
+                                    {
+                                        education.coursework.map((course) => {
+                                            return (
+                                                <li>
+                                                    {course}
+                                                </li>
+                                            )
+                                        })
+                                    }
+                                    </ol>
                                 </Text>
                                 <Spacer y={1} />
                             </div>
