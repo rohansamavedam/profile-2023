@@ -16,7 +16,7 @@ export default function Projects() {
                         currently.map((project) => {
                             return (
                                 <div>
-                                    <Link isExternal href={project.githubUrl}>
+                                    <Link isExternal href={project.url}>
                                         <Text h2>{project.title}</Text>
                                     </Link>
                                     <Text size="$md" >
