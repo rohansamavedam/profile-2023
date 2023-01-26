@@ -1,4 +1,4 @@
-import { Container, Text, Spacer, Butto, Link } from '@nextui-org/react'
+import { Container, Text, Spacer, Link } from '@nextui-org/react'
 import React from 'react'
 import userData from '../data/UserData'
 
