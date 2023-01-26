@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, Container, Row, Spacer, Grid, Link } from "@nextui-org/react";
+import { Text, Container, Row, Spacer, Grid, Link, Button } from "@nextui-org/react";
 import userData from '../data/UserData';
 
 export default function Home() {
@@ -28,15 +28,17 @@ export default function Home() {
                 <Grid.Container gap={1}>
                     <Grid>
                         <Link isExternal>
-                            <Text h3>Linkedin</Text>
+                            <Button auto color="gradient" onClick={() => { window.location.href = aboutMe.linkedinUrl }}>LinkedIn</Button>
                         </Link>
                     </Grid>
                     <Grid>
                         <Link isExternal>
-                            <Text h3>Github</Text>
+                            <Button auto color="gradient" onClick={() => { window.location.href = aboutMe.githubUrl }}>Github</Button>
                         </Link>
                     </Grid>
-                </Grid.Container>   
+                </Grid.Container>  
+                <Spacer y={1} />
+                <Text size="$lg">Write to me at: <Link>{aboutMe.email}</Link></Text>
             </Container>
         </div>
     )

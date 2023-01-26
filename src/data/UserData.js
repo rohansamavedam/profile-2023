@@ -9,7 +9,7 @@ const UserData = {
         email: "rohansamavedam@gmail.com", 
         paragraphs: [
             `
-                👋  I'm a software engineer currently living in San Francisco. 
+                I'm a software engineer currently living in San Francisco. 
                 In the next 2-3 years, I'm driven to use/grow my experience, skills, 
                 and education in bringing digital products to life. 
                 I'm also learning continuously to pivot into financial technology.  
