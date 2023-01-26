@@ -1,4 +1,4 @@
-import { Container, Text, Spacer } from '@nextui-org/react'
+import { Container, Text, Spacer, Button } from '@nextui-org/react'
 import React from 'react'
 import userData from '../data/UserData'
 
@@ -37,6 +37,7 @@ export default function Projects() {
                                         {project.shortDescription} 
                                         {project.longDescription}
                                     </Text>
+                                    <Button auto >Github</Button>
                                     <Spacer y={1} />
                                 </div>
                             )

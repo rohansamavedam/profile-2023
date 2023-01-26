@@ -8,21 +8,30 @@ const UserData = {
         mediumUrl: "https://discord.gg/e7jfdafV",
         email: "rohansamavedam@gmail.com", 
         paragraphs: [
-            `👋 Hi! I’m Rohan. I’m a graduating senior at San Jose State University studying Software Engineering. 
-            I’ve interned at Amazon during the summer of 2020, where I worked with Identity team to 
-            develop a redirect component in their product flow utilizing various AWS services. `,
-
-            `I’ve gained my experience by doing numerous projects and taking up internships. 
-            Most recently, I've led a team of 4 people to develop a travel safety mobile 
-            application that helps travelers during this covid-19 crisis. `,
-
-            `With our technology developing very rapidly, I believe that this is an excellent 
-            industry to be a part of. This motivates me to keep thinking of groundbreaking 
-            business ideas and strive to develop efficient solutions to the problems I face.`,
-
-            `When I’m not coding, you’ll find me playing tennis 🎾, jamming to hip hop 🎶, cooking gourmet 
-            food 🍛, and e-boarding full speed through the trails of Guadalupe park. 
-            Feel free to reach out, join my discord channel and we can talk about tech or anything else that's fun. 😀`
+            `
+                👋  I'm a software engineer currently living in San Francisco. 
+                In the next 2-3 years, I'm driven to use/grow my experience, skills, 
+                and education in bringing digital products to life. 
+                I'm also learning continuously to pivot into financial technology.  
+            `,
+            `
+                With the tech revolution happening everywhere, from agriculture to aviation 
+                and from finance to logistics, I'm pleased that I'm a part of this growth. 
+                Since it's a revolution, the most essential skill to possess is being agile and nimble. 
+                This means learning new skills, getting out of your comfort zone, 
+                and being open to new opportunities wherever they may arise.
+            `,
+            `
+                I use this website to write about the things I'm learning, the projects I'm working on, 
+                and the readings I keep referring back to. 
+                If you find anything interesting about my work, have an opportunity for me, 
+                or want to start a conversation, hmu on LinkedIn or write to me. 
+            `,
+            `
+                When I'm not working or learning, you'll find me playing tennis, 
+                listening to chill-electronic beats (or) trending music, cooking, 
+                and wandering around the town. Feel free to reach out 😀.
+            `
         ]
     },
     projects: [
@@ -174,6 +183,21 @@ const UserData = {
             title: "A Complete Gudie to Flexbox",
             url: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
             description: "",
+        },
+        {
+            title: "From TypeScript to React to Next.js",
+            url: "https://nextjs.org/learn/foundations/from-javascript-to-react/essential-javascript-react",
+            description: ""
+        },
+        {
+            title: "What is Financial Technology (FinTech)?",
+            url: "https://bootcamp.cvn.columbia.edu/blog/what-is-fintech/#1630508156182-5c6512eb-aabf",
+            description: "FinTech 101. Hisotry of FinTech. Educational pathways in FinTech. Programming, Cybersecurity, AI/ML, Data Science, and Blockchain development. "
+        },
+        {
+            title: "What are the key components of blockchain technology?",
+            url: "https://aws.amazon.com/what-is/blockchain/#:~:text=give%20their%20consent.-,What%20are%20the%20key%20components%20of%20blockchain%20technology%3F,-Blockchain%20architecture%20has",
+            description: "Blockchain architecture: Distrubuted ledger, smart contracts, public key cryptography."
         }
     ]
 }
