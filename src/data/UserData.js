@@ -214,6 +214,11 @@ const UserData = {
         ],
     reads: [
         {
+            title: "Hooks in React.js",
+            url: "https://reactjs.org/docs/hooks-intro.html",
+            description: "Hooks, UseState, UseEffect, Rules of using hooks, Building your own hooks, Hooks API references"
+        },
+        {
             title: "What is Financial Technology (FinTech)?",
             url: "https://bootcamp.cvn.columbia.edu/blog/what-is-fintech/#1630508156182-5c6512eb-aabf",
             description: "FinTech 101. Hisotry of FinTech. Educational pathways in FinTech. Programming, Cybersecurity, AI/ML, Data Science, and Blockchain development. "
