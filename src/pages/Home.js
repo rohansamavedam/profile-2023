@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, Container, Row, Spacer, Grid, Link, Button } from "@nextui-org/react";
+import { Text, Container, Spacer, Grid, Link, Button } from "@nextui-org/react";
 import userData from '../data/UserData';
 
 export default function Home() {
@@ -8,11 +8,9 @@ export default function Home() {
     return (
         <div>
             <Container xs>
-                <Row>
-                    <Text h1 css={{
-                    textGradient: "45deg, #009FFF -20%, #ec2F4B 100%",
-                    }}>Hey there, I'm Rohan</Text>
-                </Row>
+                <Text h1 css={{
+                textGradient: "45deg, #009FFF -20%, #ec2F4B 100%",
+                }}>Hey there, I'm Rohan</Text>
                 {
                     aboutMe.paragraphs.map((paragraph) => {
                         return (
