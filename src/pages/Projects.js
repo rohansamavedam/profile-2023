@@ -1,11 +1,15 @@
+import React, { useEffect } from 'react'
 import { Container, Text, Spacer, Link } from '@nextui-org/react'
-import React from 'react'
 import userData from '../data/UserData'
 
 export default function Projects() {
-    const projects = userData.projects;
-    const currently = userData.curretly;
+    const projects = userData.projects
+    const currently = userData.curretly
     const headingCss = { textGradient: "45deg, #009FFF -20%, #ec2F4B 100%" }
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <div>
@@ -43,7 +47,6 @@ export default function Projects() {
                                     <Text size="$md" >
                                         Tech stack used: {project.techStack} 
                                     </Text>
-                                    {/* <Button auto >Github</Button> */}
                                     <Spacer y={1} />
                                 </div>
                             )

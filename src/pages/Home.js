@@ -1,9 +1,13 @@
-import React from 'react'
-import { Text, Container, Spacer, Grid, Link, Button } from "@nextui-org/react";
-import userData from '../data/UserData';
+import React, { useEffect } from 'react'
+import { Text, Container, Spacer, Grid, Link, Button } from "@nextui-org/react"
+import userData from '../data/UserData'
 
 export default function Home() {
     const aboutMe = userData.aboutMe
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <div>
