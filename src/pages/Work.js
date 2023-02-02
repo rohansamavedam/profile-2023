@@ -84,7 +84,7 @@ export default function Experience() {
                     reads.map((read) => {
                         return (
                             <div>
-                                <Link href={read.url} isExternal>
+                                <Link href={read.url} target="_blank" isExternal>
                                     <Text h2>{read.title}</Text>
                                 </Link>
                                 <Text size="$md">{read.description}</Text>

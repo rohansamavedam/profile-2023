@@ -20,7 +20,7 @@ export default function Projects() {
                         currently.map((project) => {
                             return (
                                 <div>
-                                    <Link isExternal href={project.url}>
+                                    <Link isExternal href={project.url} target="_blank">
                                         <Text h2>{project.title}</Text>
                                     </Link>
                                     <Text size="$md" >
@@ -38,7 +38,7 @@ export default function Projects() {
                         projects.map((project) => {
                             return (
                                 <div>
-                                    <Link isExternal href={project.githubUrl}>
+                                    <Link isExternal href={project.githubUrl} target="_blank">
                                         <Text h2>{project.title}</Text>
                                     </Link>
                                     <Text size="$md" >
