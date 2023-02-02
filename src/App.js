@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import NavBar from './components/NavBar/NavBar'
-import Home from "./pages/Home";
-import Projects from "./pages/Projects";
-import Work from "./pages/Work";
-import FourOFour from "./pages/404";
+import Home from "./pages/Home"
+import Projects from "./pages/Projects"
+import Work from "./pages/Work"
+import FourOFour from "./pages/404"
 
 function App() {
   return (

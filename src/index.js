@@ -1,10 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import { createTheme, NextUIProvider } from '@nextui-org/react';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import { createTheme, NextUIProvider } from '@nextui-org/react'
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'))
 
 const darkTheme = createTheme({
   type: 'dark',

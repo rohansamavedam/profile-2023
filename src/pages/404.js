@@ -1,5 +1,5 @@
-import { Container, Text } from '@nextui-org/react'
 import React from 'react'
+import { Container, Text } from '@nextui-org/react'
 
 export default function FourOFour() {
     return (
