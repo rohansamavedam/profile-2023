@@ -242,6 +242,10 @@ const UserData = {
             title: "Key components of blockchain?",
             url: "https://aws.amazon.com/what-is/blockchain/#:~:text=give%20their%20consent.-,What%20are%20the%20key%20components%20of%20blockchain%20technology%3F,-Blockchain%20architecture%20has",
             description: "Blockchain architecture: Distrubuted ledger, smart contracts, public key cryptography."
+        },
+        {
+            title: "Diff b/w var, let, & const Javascript",
+            url: "https://dev.to/sethusenthil/var-vs-let-vs-const-1cgc"
         }
     ]
 }
