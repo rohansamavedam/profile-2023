@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { Text, Container, Spacer, Grid, Link, Button } from "@nextui-org/react"
 import userData from '../data/UserData'
+import rohan_resume from '../data/rohan_sf_resume.pdf'
 
 export default function Home() {
     const aboutMe = userData.aboutMe
@@ -19,7 +20,7 @@ export default function Home() {
                     aboutMe.paragraphs.map((paragraph) => {
                         return (
                             <div>
-                                <Text size="$lg" >
+                                <Text size="$md" >
                                     {paragraph}
                                 </Text>
                                 <Spacer y={1} />
@@ -41,6 +42,11 @@ export default function Home() {
                 </Grid.Container>  
                 <Spacer y={1} />
                 <Text size="$lg">Write to me at: <Link>{aboutMe.email}</Link></Text>
+                <Text size="$lg"> Download my resume:  &nbsp;
+                    <a href={rohan_resume} download="resume" target='_blank'>
+                        here 
+                    </a>
+                </Text>
             </Container>
         </div>
     )
