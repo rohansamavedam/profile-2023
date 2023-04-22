@@ -9,10 +9,9 @@ const UserData = {
         email: "rohansamavedam@gmail.com", 
         paragraphs: [
             `
-                I'm a software engineer currently living in San Francisco. 
-                In the next 2-3 years, I'm driven to use/grow my experience, skills, 
+                I'm a software engineer currently living in San Jose. 
+                In the next 2-3 years, I'm driven to use and grow my experience, skills, 
                 and education in bringing digital products to life. 
-                I'm also learning continuously to pivot into financial technology.  
             `,
             `
                 With the tech revolution happening everywhere, from agriculture to aviation 
@@ -29,28 +28,22 @@ const UserData = {
             `,
             `
                 When I'm not working or learning, you'll find me playing tennis, 
-                listening to chill-electronic beats (or) trending music, cooking, 
+                listening to chill-electronic beats, cooking, 
                 and wandering around the town. Feel free to reach out 😀.
             `
         ]
     },
     curretly: [
         {
-            title: "Understanding System Design",
-            url: "https://www.freecodecamp.org/news/software-system-design-for-beginners/",
-            description: "Uses video streaming service as an example for demonstrating system design priniciples. Learned about different diagramming approaches, API design, database design, and network protocols."
+            title: "Goodreads.com Clone",
+            url: "https://github.com/GoodreadsClone",
+            description: "Buliding goodreads.com clone to stay in touch with full stack development. Next.js, Typescript, GraphQL, Node.js, Apollo Server, TypeORM, PostgresSQL"
         },
         {
             title: "Master the Coding Interview",
             url: "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/",
             description: "I was impacted by the recent wave of layoffs, so getting back to the fundamentals of CS and problem solving."
         },
-        {
-            title: "Reddit 2.0",
-            url: "https://github.com/rohansamavedam/ss-reddit-2",
-            description: "Building a reddit clone for fun and to be in form using the modern tech stack (Next.js, PostgreSQL, GrpahQL, StepZen, TypeScript, Tailwind CSS)"
-        },
-
 
     ],
     projects: [
@@ -66,19 +59,6 @@ const UserData = {
             imageSrcOne: "https://images.pexels.com/photos/434400/pexels-photo-434400.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
             imageSrcTwo: "",
             readmeUrl: "https://github.com/TravSafe-FinalYearProject/TravSafe/blob/master/README.md",
-
-        },
-        {
-            title: "Spartan Books",
-            subTitle: "Full Stack Web Application",
-            shortDescription: "An online used book store platfrom that allows users to buy and sell textbooks.",
-            moreInfoExists: false,
-            longDescription: "",
-            techStack: "Node, React, Axios, Bootstrap, MongoDB",
-            liveUrl: "https://spartanbooks.herokuapp.com/",
-            githubUrl: "https://github.com/rohansamavedam/SpartanBooks-FrontEnd",
-            imageSrcOne: "https://images.pexels.com/photos/1301585/pexels-photo-1301585.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-            imageSrcTwo: "",
 
         },
         {
@@ -104,32 +84,6 @@ const UserData = {
             liveUrl: "https://chatroomslive.herokuapp.com/",
             githubUrl: "https://github.com/rohansamavedam/Real-Time-Chat-App",
             imageSrcOne: "https://images.pexels.com/photos/4057663/pexels-photo-4057663.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-            imageSrcTwo: "",
-
-        },
-        {
-            title: "Gully Umpire",
-            subTitle: "Mobile Web Application",
-            shortDescription: "A score logging software that allows to log runs, wickets, and extras using a mobile phone.",
-            moreInfoExists: false,
-            longDescription: "",
-            techStack: "HTML, CSS, Javascript, JQuery",
-            liveUrl: "https://gullyumpire.herokuapp.com/",
-            githubUrl: "https://github.com/rohansamavedam/Gully-Umpire",
-            imageSrcOne: "https://images.pexels.com/photos/163394/baseball-umpire-strike-sport-163394.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-            imageSrcTwo: "",
-
-        },
-        {
-            title: "Realtor Prototype",
-            subTitle: "Django Application",
-            shortDescription: "A real estate postings application built together with backend administrative access.",
-            moreInfoExists: false,
-            longDescription: "",
-            techStack: "Python Django, Javascript, HTML, CSS, Heroku",
-            liveUrl: "",
-            githubUrl: "https://github.com/rohansamavedam/Realtor-Prototype",
-            imageSrcOne: "https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
             imageSrcTwo: "",
 
         },
@@ -219,6 +173,12 @@ const UserData = {
             description: "Hooks, UseState, UseEffect, Rules of using hooks, Building your own hooks, Hooks API references"
         },
         {
+            title: "TypeORM",
+            url: "https://typeorm.io/",
+            description: "Learing TypeORM with PostgresSQL to write backend code in Node.js and GraphQL with Apollo Server"
+
+        },
+        {
             title: "What is Financial Technology (FinTech)?",
             url: "https://bootcamp.cvn.columbia.edu/blog/what-is-fintech/#1630508156182-5c6512eb-aabf",
             description: "FinTech 101. Hisotry of FinTech. Educational pathways in FinTech. Programming, Cybersecurity, AI/ML, Data Science, and Blockchain development. "
@@ -237,15 +197,6 @@ const UserData = {
             title: "From TypeScript to React to Next.js",
             url: "https://nextjs.org/learn/foundations/from-javascript-to-react/essential-javascript-react",
             description: ""
-        },
-        {
-            title: "Key components of blockchain?",
-            url: "https://aws.amazon.com/what-is/blockchain/#:~:text=give%20their%20consent.-,What%20are%20the%20key%20components%20of%20blockchain%20technology%3F,-Blockchain%20architecture%20has",
-            description: "Blockchain architecture: Distrubuted ledger, smart contracts, public key cryptography."
-        },
-        {
-            title: "Diff b/w var, let, & const Javascript",
-            url: "https://dev.to/sethusenthil/var-vs-let-vs-const-1cgc"
         }
     ]
 }

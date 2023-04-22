@@ -20,7 +20,7 @@ export default function Home() {
                     aboutMe.paragraphs.map((paragraph) => {
                         return (
                             <div>
-                                <Text size="$md" >
+                                <Text size={17} >
                                     {paragraph}
                                 </Text>
                                 <Spacer y={1} />
