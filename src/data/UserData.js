@@ -179,11 +179,6 @@ const UserData = {
 
         },
         {
-            title: "What is Financial Technology (FinTech)?",
-            url: "https://bootcamp.cvn.columbia.edu/blog/what-is-fintech/#1630508156182-5c6512eb-aabf",
-            description: "FinTech 101. Hisotry of FinTech. Educational pathways in FinTech. Programming, Cybersecurity, AI/ML, Data Science, and Blockchain development. "
-        },
-        {
             title: "The Complete Node.js Developer",
             url: "https://www.udemy.com/course/the-complete-nodejs-developer-course-2/",
             description: "Learned the fundamentals of Node, after which, dived deep into great tools such as Express, Mongoose, MongoDB. Built various REST API's and created a real-time chat application utilizing Socket.io."
