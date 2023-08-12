@@ -9,6 +9,7 @@
 .navbarComponent {
     padding: 20px 0px 20px 37px;
     display: flex;
+    justify-content: space-between;
     border-bottom: solid 1px rgba(34, 34, 34);
     background-color: rgba(0, 0, 0, 0.9);
     width: 98%;
@@ -16,4 +17,24 @@
 
 .navLink {
     padding-right: 25px;
+}
+
+.lastUpdated {
+    margin-left: auto;
+}
+
+  
+/* Media query for screens with a width of 1600px or less */
+@media (min-width: 500px) {
+    .lastUpdated {
+        margin-right: 100px;
+        /* Add more styles specific to larger screens */
+    }
+}
+
+@media (max-width: 500px) {
+    .lastUpdated {
+       display: none;
+        /* Add more styles specific to larger screens */
+    }
 }

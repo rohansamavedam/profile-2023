@@ -32,18 +32,22 @@ export default function Experience() {
                                             )
                                         })
                                     }
-                                    <Text size="$md">Tools & tech that I was using frequently: </Text>
-                                    <ol>
-                                    {
-                                        experience.tools.map((tool) => {
-                                            return (
-                                                <li>
-                                                    {tool}
-                                                </li>
-                                            )
-                                        })
+                                    { experience.tools.length > 0 && 
+                                        <div>
+                                            <Text size="$md">Tools & tech that I was using frequently: </Text>
+                                            <ol>
+                                            {
+                                                experience.tools.map((tool) => {
+                                                    return (
+                                                        <li>
+                                                            {tool}
+                                                        </li>
+                                                    )
+                                                })
+                                            }
+                                            </ol>
+                                        </div>
                                     }
-                                    </ol>
                                 </Text>
                                 <Spacer y={1} />
                             </div>

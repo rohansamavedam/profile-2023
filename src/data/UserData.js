@@ -1,4 +1,7 @@
 const UserData = {
+    lastUpdated: {
+        date: "Aug 12th 2023"
+    },
     aboutMe: {
         firstName: "Rohan",
         lastName: "Samavedam",
@@ -12,13 +15,6 @@ const UserData = {
                 I'm a software engineer currently living in San Jose. 
                 In the next 2-3 years, I'm driven to use and grow my experience, skills, 
                 and education in bringing digital products to life. 
-            `,
-            `
-                With the tech revolution happening everywhere, from agriculture to aviation 
-                and from finance to logistics, I'm pleased that I'm a part of this growth. 
-                Since it's a revolution, the most essential skill to possess is being agile and nimble. 
-                This means learning new skills, getting out of your comfort zone, 
-                and being open to new opportunities wherever they may arise.
             `,
             `
                 I use this website to write about the things I'm learning, the projects I'm working on, 
@@ -35,16 +31,16 @@ const UserData = {
     },
     curretly: [
         {
-            title: "Goodreads.com Clone",
-            url: "https://github.com/GoodreadsClone",
-            description: "Buliding goodreads.com clone to stay in touch with full stack development. Next.js, Typescript, GraphQL, Node.js, Apollo Server, TypeORM, PostgresSQL"
+            title: "Admitted",
+            url: "https://www.goodreads.com/book/show/55387773-admitted",
+            description: "The missing guide to craft a winning application and studying abroad."
+
         },
         {
-            title: "Master the Coding Interview",
-            url: "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/",
-            description: "I was impacted by the recent wave of layoffs, so getting back to the fundamentals of CS and problem solving."
-        },
-
+            title: "Understanding Angular",
+            url: "https://angular.io/guide/understanding-angular-overview",
+            description: "Learning angular as part of my current work requirement."
+        }
     ],
     projects: [
         {
@@ -60,36 +56,22 @@ const UserData = {
             imageSrcTwo: "",
             readmeUrl: "https://github.com/TravSafe-FinalYearProject/TravSafe/blob/master/README.md",
 
-        },
-        {
-            title: "MyRoomie-Roommate Finder",
-            subTitle: "Full Stack Web Application",
-            shortDescription: "A roommate finding application that finds the best roommate match for the user based on a well designed survey.",
-            moreInfoExists: false,
-            longDescription: "",
-            techStack: "Node, React, Axios, Bootstrap, MongoDB",
-            liveUrl: "https://myroommatefinder.herokuapp.com/",
-            githubUrl: "https://github.com/rohansamavedam/Roommate-Finder",
-            imageSrcOne: "https://images.pexels.com/photos/3171815/pexels-photo-3171815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-            imageSrcTwo: "",
-
-        },
-        {
-            title: "Real Time Chat Application",
-            subTitle: "Web App Using Web Sockets",
-            shortDescription: "A chat application that utilies Socket.io for bi-directional communication between server and the client.",
-            moreInfoExists: false,
-            longDescription: "",
-            techStack: "JavaScript, JQuery, AJAX, HTML, CSS, APIs",
-            liveUrl: "https://chatroomslive.herokuapp.com/",
-            githubUrl: "https://github.com/rohansamavedam/Real-Time-Chat-App",
-            imageSrcOne: "https://images.pexels.com/photos/4057663/pexels-photo-4057663.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-            imageSrcTwo: "",
-
-        },
+        }
     ],
     experience: 
         [
+            {
+                position: "Software Engineer",
+                company: "One Medical",
+                timeline: "Currently",
+                workDescp: [
+                    `Currently....`,
+                    `Using TypeScript, Angular, React, Rails, AWS, Git, JIRA`
+                ],
+                tools: [
+                ]
+
+            },
             {
                 position: "Software Engineer",
                 company: "Goodreads.com",
@@ -168,11 +150,6 @@ const UserData = {
         ],
     reads: [
         {
-            title: "Hooks in React.js",
-            url: "https://reactjs.org/docs/hooks-intro.html",
-            description: "Hooks, UseState, UseEffect, Rules of using hooks, Building your own hooks, Hooks API references"
-        },
-        {
             title: "TypeORM",
             url: "https://typeorm.io/",
             description: "Learing TypeORM with PostgresSQL to write backend code in Node.js and GraphQL with Apollo Server"
@@ -188,11 +165,6 @@ const UserData = {
             url: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
             description: "",
         },
-        {
-            title: "From TypeScript to React to Next.js",
-            url: "https://nextjs.org/learn/foundations/from-javascript-to-react/essential-javascript-react",
-            description: ""
-        }
     ]
 }
 
